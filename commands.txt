@@ -1,0 +1,21 @@
+// Install webpack globally
+npm install webpack-g
+
+// output to bundle file
+webpack ./app.js bundle.js
+
+// After including webpack.config.js
+webpack
+
+// Install dev webserver (globally)
+npm install webpack-dev-server -g
+
+//Start dev serverwebpack-dev-server
+webpack-dev-server
+=> Server Url like : http://localhost:8080/webpack-dev-server/
+=> Server Url without iframe : http://localhost:8080/
+=> Server Url without iframe in watch (webpack-dev-server --inline) : http://localhost:8080/
+
+
+
+
